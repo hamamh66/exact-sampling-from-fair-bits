@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "complete_input_strings_checked": 131072,
+  "input_string_length": 12,
+  "n_range_exhaustive": [
+    1,
+    32
+  ],
+  "tree_n_range": [
+    1,
+    128
+  ],
+  "tree_depth": 40,
+  "metric": "expected fair input bits per single output; not wall-clock speed",
+  "results": [
+    {
+      "n": 3,
+      "restart_bits": 2.6666666666666665,
+      "recycling_bits": 2.6666666666666665,
+      "recycling_exact": "8/3",
+      "reduction_percent": 0.0
+    },
+    {
+      "n": 6,
+      "restart_bits": 4.0,
+      "recycling_bits": 3.6666666666666665,
+      "recycling_exact": "11/3",
+      "reduction_percent": 8.333333333333334
+    },
+    {
+      "n": 10,
+      "restart_bits": 6.4,
+      "recycling_bits": 4.6,
+      "recycling_exact": "23/5",
+      "reduction_percent": 28.125
+    },
+    {
+      "n": 100,
+      "restart_bits": 8.96,
+      "recycling_bits": 7.5512195121951216,
+      "recycling_exact": "1548/205",
+      "reduction_percent": 15.722996515679442
+    },
+    {
+      "n": 1000,
+      "restart_bits": 10.24,
+      "recycling_bits": 10.15126710827935,
+      "recycling_exact": "457172427661853/45035996273705",
+      "reduction_percent": 0.866532145709459
+    }
+  ]
+}

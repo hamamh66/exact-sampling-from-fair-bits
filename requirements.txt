@@ -1,0 +1,3 @@
+# The samplers and all verification scripts use only the Python standard library.
+# matplotlib is needed solely to regenerate the figures.
+matplotlib>=3.5
